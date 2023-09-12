@@ -1,5 +1,5 @@
 import storage from "redux-persist/lib/storage";
-import { blue, green, grey } from "@mui/material/colors";
+import { red, orange, grey } from "@mui/material/colors";
 
 export const excludedActions = ["persist/PERSIST", "persist/REHYDRATE"];
 
@@ -13,13 +13,13 @@ export const styles = {
     overflow: "hidden",
   },
   cardContentStyle: {
-    background: blue[50],
+    background: red[50],
     height: "400px",
     overflowY: "auto",
     marginRight: "-15px",
   },
   bgGradient: {
-    background: `linear-gradient(to right, ${green[400]}, ${blue[300]})`,
+    background: `linear-gradient(to left, ${red[400]}, ${orange[300]})`,
     color: grey[100],
   },
 };

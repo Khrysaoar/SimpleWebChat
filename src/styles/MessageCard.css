@@ -1,7 +1,6 @@
 .messages-card {
     display: flex;
     flex-direction: column;
-
 }
 
 .message-box {
@@ -41,13 +40,13 @@
 }
 
 .message-box-right .message {
-    background: #2e82d6;
+    background: #914949;
     border-radius: 10px 10px 0px 10px;
     color: #fff;
 }
 
 .message-box-right .message .message-time {
-    color: #a3cef8;
+    color: #f8a3bd;
 }
 
 .message-box-right {

@@ -8,7 +8,7 @@ import {
   CardHeader,
   Card,
 } from "@mui/material";
-import { blue, grey } from "@mui/material/colors";
+import { red, grey, pink } from "@mui/material/colors";
 import PersonIcon from "@mui/icons-material/Person";
 import SendIcon from "@mui/icons-material/Send";
 import { Messages } from "./Messages";
@@ -40,7 +40,7 @@ export const ChatCard = ({ user }) => {
     <Card sx={{ width: "25rem" }} style={styles.cardStyle}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: blue[500] }} aria-label="current-user">
+          <Avatar sx={{ bgcolor: red[500] }} aria-label="current-user">
             <PersonIcon />
           </Avatar>
         }
@@ -63,7 +63,7 @@ export const ChatCard = ({ user }) => {
           onChange={(e) => setMessage(e.target.value)}
         />
         <Button aria-label="send-message" onClick={postMessage}>
-          <SendIcon />
+          <SendIcon sx={{ color: pink[500] }}/>
         </Button>
       </CardActions>
     </Card>

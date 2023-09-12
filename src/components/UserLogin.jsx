@@ -17,9 +17,9 @@ export const UserLogin = ({ handleLogin }) => {
           Please Sign In
         </Typography>
         <TextField
-          label="username"
-          placeholder="enter username"
-          size="small"
+          label="Username"
+          placeholder="Enter Username"
+          size="medium"
           style={{ margin: "10px" }}
           value={name}
           onChange={(e) => setName(e.target.value)}
@@ -27,7 +27,7 @@ export const UserLogin = ({ handleLogin }) => {
         <br />
         <Button
           variant="contained"
-          style={{ margin: "10px" }}
+          style={{ margin: "10px", backgroundColor: "#d62e2e"}}
           onClick={() => handleLogin(name)}
         >
           Join chat

@@ -3,8 +3,13 @@
     flex-direction: column;
 }
 
+.header-text {
+    display: flex;
+    align-self: center;
+}
+
 .header {
-    background-color: #2e82d6;
+    background-color: #d62e2e;
     color: #FFF;
     text-transform: uppercase;
     padding: 0 1rem;
