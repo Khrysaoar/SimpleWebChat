@@ -14,7 +14,7 @@ export const UserLogin = ({ handleLogin }) => {
     <Card sx={{ minWidth: 275 }}>
       <CardContent>
         <Typography variant="h4" textAlign="center" gutterBottom>
-          Login in
+          Please Sign In
         </Typography>
         <TextField
           label="username"
