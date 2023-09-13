@@ -9,3 +9,8 @@ Stacks used
 - Redux (redux-sync, redux-persist)
 - Hooks
 - Material UI
+  
+# To run Application locally
+`npm install`
+`npm run build`
+`npm run start`
